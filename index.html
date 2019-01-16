@@ -12,29 +12,18 @@
 </head>
 
 <body>
-    <!-- <nav class="main_nav">
-        <ul>
-            <li><a class="active" onclick="slidePage.changeHash('item1')" data-id="item1">item 1</a></li>
-            <li><a data-id="item2" onclick="slidePage.changeHash('item2')">item 2</a></li>
-            <li><a data-id="item3" onclick="slidePage.changeHash('item3')">item 3</a></li>
-            <li><a data-id="item4" onclick="slidePage.changeHash('item4')">item 4</a></li>
-            <li><a data-id="item5" onclick="slidePage.changeHash('item5')">item 5</a></li>
-            <li><a data-id="item6" onclick="slidePage.changeHash('item6')">item 6</a></li>
-            <li><a data-id="item7" onclick="slidePage.changeHash('item7')">item 7</a></li>
-        </ul>
-    </nav> -->
     <div class="slidePage-container" id="slidePage-container">
         <div class="slide item1" data-anchor="item1">
             <header class="main-header">
                 <ul class="first-page-menu">
                     <li>
-                        <a><span>Paymant</span><span> Methods</span></a>
+                        <a onclick="slidePage.changeHash('item2')"><span>Paymant</span><span> Methods</span></a>
                     </li>
                     <li>
-                        <a><span>Loyalty</span><span> Points</span></a>
+                        <a onclick="slidePage.changeHash('item4')"><span>Loyalty</span><span> Points</span></a>
                     </li>
                     <li>
-                        <a><span>Contact</span><span> Us</span></a>
+                        <a onclick="slidePage.changeHash('item5')"><span>Contact</span><span> Us</span></a>
                     </li>
                 </ul>
             </header>
@@ -122,6 +111,8 @@
             </div>
         </div>
         <div class="slide item2" data-anchor="item2" style="text-align: center">
+            <hr>
+            <div class="h1">Face-to-face payment</div>
             <div class="mokup-holder">
                 <img class="slide_img" src="./assets/images/phone1.png">
             </div>
@@ -158,6 +149,8 @@
         </div>
 
         <div class="slide item3" data-anchor="item3">
+            <hr>
+            <div class="h1">Card-Not-Present Payment</div>
             <div class="mokup-holder">
                 <img class="slide_img" src="./assets/images/phone2.png">
             </div>
@@ -168,6 +161,11 @@
                     <h4>STEP</h4>
                     <h4>01</h4>
                     <h4>Scan it</h4>
+                </div>
+                <div class="scroll-down">
+                    <div class="arrow-down">
+
+                    </div>
                 </div>
             </div>
             <div class="cricle-steps red">
