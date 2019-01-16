@@ -17,11 +17,29 @@ slidePage.init({
             $('#pagination').find('a').removeClass('active').eq(target - 1).addClass('active')
         }
         setTimeout(function () {
-            $('.slide').eq(animate_index).find('.part_software img').addClass('wow fadeInDown animated');
-        }, 500);
-        setTimeout(function () {
             $('.slide').eq(animate_index).find('h1').addClass('wow fadeIn animated');
         }, 500);
+        setTimeout(function () {
+            $('.slide').eq(animate_index).find('.mokup-holder .slide_img').addClass('wow fadeIn animated');
+        }, 1300);
+        setTimeout(function () {
+            $('.slide').eq(animate_index).find('.cricle-steps.orange').addClass('wow fadeIn animated');
+        }, 1700);
+        setTimeout(function () {
+            $('.slide').eq(animate_index).find('.cricle-steps.red').addClass('wow fadeIn animated');
+        }, 2100);
+        setTimeout(function () {
+            $('.slide').eq(animate_index).find('.cricle-steps.green').addClass('wow fadeIn animated');
+        }, 2500);
+        setTimeout(function () {
+            $('.slide').eq(animate_index).find('.cricle-steps.purple').addClass('wow fadeIn animated');
+        }, 2900);
+        setTimeout(function () {
+            $('.slide').eq(animate_index).find('.fade-left').addClass('wow fadeInLeft animated');
+        }, 700);
+        setTimeout(function () {
+            $('.slide').eq(animate_index).find('.fade-right').addClass('wow fadeInRight animated');
+        }, 700);
         // setTimeout(function () {
         //     $('.slide').eq(animate_index).find('h1').addClass('wow fadeInUp animated');
         // }, 500);
