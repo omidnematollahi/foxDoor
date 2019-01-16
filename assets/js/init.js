@@ -40,57 +40,6 @@ slidePage.init({
         setTimeout(function () {
             $('.slide').eq(animate_index).find('.fade-right').addClass('wow fadeInRight animated');
         }, 700);
-        // setTimeout(function () {
-        //     $('.slide').eq(animate_index).find('h1').addClass('wow fadeInUp animated');
-        // }, 500);
-        // setTimeout(function () {
-        //     $('.slide').eq(animate_index).find('h1').addClass('wow fadeInRight animated');
-        // }, 300);
-        // setTimeout(function () {
-        //     $('.slide').eq(animate_index).find('h1').addClass('wow fadeInLeft animated');
-        // }, 400);
-        // setTimeout(function () {
-        //     $('.slide').eq(animate_index).find('.customer_field p').addClass('wow fadeInUp animated');
-        // }, 500);
-        // setTimeout(function () {
-        //     $('.slide').eq(animate_index).find('.p1').addClass('wow fadeInUp animated');
-        // }, 1000);
-        // setTimeout(function () {
-        //     $('.slide').eq(animate_index).find('.p2').addClass('wow fadeInUp animated');
-        // }, 1050);
-        // setTimeout(function () {
-        //     $('.slide').eq(animate_index).find('.p3').addClass('wow fadeInUp animated');
-        // }, 1100);
-        // setTimeout(function () {
-        //     $('.slide').eq(animate_index).find('.p4').addClass('wow fadeInUp animated');
-        // }, 1150);
-        // setTimeout(function () {
-        //     $('.slide').eq(animate_index).find('.p5').addClass('wow fadeInUp animated');
-        // }, 1200);
-        // setTimeout(function () {
-        //     $('.slide').eq(animate_index).find('.p6').addClass('wow fadeInUp animated');
-        // }, 1250);
-        // setTimeout(function () {
-        //     $('.slide').eq(animate_index).find('.p7').addClass('wow fadeInUp animated');
-        // }, 1300);
-        // setTimeout(function () {
-        //     $('.slide').eq(animate_index).find('.p8').addClass('wow fadeInUp animated');
-        // }, 1350);
-        // setTimeout(function () {
-        //     $('.slide').eq(animate_index).find('.contact_field img').addClass('wow fadeInUp animated');
-        // }, 200);
-        // setTimeout(function () {
-        //     $('.slide').eq(animate_index).find('.contact_address div').addClass('wow fadeInDown animated');
-        // }, 500);
-        // setTimeout(function () {
-        //     $('.slide').eq(animate_index).find('.contact_form').addClass('wow fadeInUp animated');
-        // }, 800);
-        // setTimeout(function () {
-        //     $('.slide').eq(animate_index).find('.product_information').addClass('wow fadeInLeft animated');
-        // }, 500);
-        // setTimeout(function () {
-        //     $('.slide').eq(animate_index).find('.product_view img').addClass('wow fadeInRight animated');
-        // }, 700);
     },
     after: function (index, direction, target) {
     },
